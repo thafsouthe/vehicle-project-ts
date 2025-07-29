@@ -1,0 +1,85 @@
+# TypeScript Vehicle Project Report
+
+## Project Overview
+
+This project demonstrates the use of TypeScript interfaces and classes by defining a `Vehicle` interface and implementing it with a `Car` class.
+
+---
+
+## What was done
+
+1. **Created the project folder** on Desktop named `vehicle-project`.
+2. **Initialized a Node.js project** using `npm init -y`.
+3. **Installed TypeScript** as a development dependency.
+4. **Initialized TypeScript configuration** with `tsconfig.json`.
+5. **Created `index.ts`**, where:
+   - Defined the `Vehicle` interface with `make`, `model`, `year`, and a `start()` method.
+   - Created a `Car` class implementing the `Vehicle` interface.
+   - Implemented the constructor and the `start` method to log "Car engine started".
+   - Created an instance of `Car` and called `start()` method.
+6. **Compiled the TypeScript code** using `npx tsc`.
+7. **Ran the compiled JavaScript code** with `node index.js` and confirmed output.
+
+---
+
+# Installation and Setup Commands
+
+This file contains all commands used to set up the TypeScript project.
+
+---
+
+## Step 1: Create Project Folder on Desktop
+
+cd ~/Desktop
+mkdir vehicle-project
+cd vehicle-project
+
+---
+
+## Step 2: Initialize Node.js Project
+
+npm init -y
+
+---
+
+## Step 3: Install TypeScript
+
+npm install typescript --save-dev
+
+---
+
+## Step 4: Initialize TypeScript Configuration
+
+npx tsc --init
+
+---
+
+## Step 5: Create TypeScript File
+
+* On Windows using terminal:
+
+echo > index.ts
+
+* Or create the file manually in your code editor.
+
+---
+
+## Step 6: Compile TypeScript Code
+
+npx tsc
+
+---
+
+## Step 7: Run Compiled JavaScript
+
+node index.js
+
+---
+
+## Optional: Automatically Compile on Save (Watch Mode)
+
+npx tsc --watch
+
+---
+
+*End of installation commands.*
